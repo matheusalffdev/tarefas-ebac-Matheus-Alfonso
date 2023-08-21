@@ -1,7 +1,7 @@
 public class Funcionario {
 
     /*Variaveis da
-    classe Funcionario
+    class Funcionario
     */
     private String nome;
     private int idade;
@@ -13,7 +13,7 @@ public class Funcionario {
 
 
     /*Getters e Setters
-    da classe Funcionario
+    da class Funcionario
      */
 
     public String getNome() {
