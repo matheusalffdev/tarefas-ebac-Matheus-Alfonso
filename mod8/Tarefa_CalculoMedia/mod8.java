@@ -1,17 +1,23 @@
+import java.util.Scanner;
+
 public class mod8 {
     public static void main(String args[])
     {
-        calcularMedia();
-    }
+        Scanner scanner = new Scanner(System.in);
 
-    private static void calcularMedia()
-    {
-        float num1 = 5;
-        float num2 = 4;
-        float num3 = 3;
-        float num4 = 8;
+        System.out.println("Informe a primeira nota: ");
+        double nota1 = scanner.nextDouble();
 
-        float media = ((num1 + num2 + num3 + num4)/4);
-        System.out.println(media);
+        System.out.println("Informe a segunda nota: ");
+        double nota2 = scanner.nextDouble();
+
+        System.out.println("Informe a terceira nota: ");
+        double nota3 = scanner.nextDouble();
+
+        System.out.println("Informe a quarta nota: ");
+        double nota4 = scanner.nextDouble();
+
+        double media = (nota1 + nota2 + nota3 + nota4)/4;
+        System.out.println("A media das notas eh: " + media);
     }
 }
