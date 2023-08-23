@@ -19,5 +19,7 @@ public class mod8 {
 
         double media = (nota1 + nota2 + nota3 + nota4)/4;
         System.out.println("A media das notas eh: " + media);
+
+        scanner.close();
     }
 }
