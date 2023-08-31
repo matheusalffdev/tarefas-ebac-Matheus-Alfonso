@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Tarefa_Mod10
@@ -18,6 +21,8 @@ public class Tarefa_Mod10
                 float media = calculaMedia(nota1, nota2, nota3, nota4);
 
                 verificaAprovacao(media);
+
+
         }
 
         public static float calculaMedia(float n1, float n2, float n3, float n4)
