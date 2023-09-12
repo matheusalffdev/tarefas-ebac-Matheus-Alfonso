@@ -2,10 +2,17 @@ public abstract class Pessoa
 {
     private String nome;
 
-    private String sobrenome;
-
     private Integer idade;
 
+    private String endereco;
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
 
     public String getNome() {
         return nome;
@@ -13,14 +20,6 @@ public abstract class Pessoa
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getSobrenome() {
-        return sobrenome;
-    }
-
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
     }
 
     public Integer getIdade() {
